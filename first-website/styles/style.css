@@ -1,0 +1,58 @@
+a:hover,
+li,
+h1,
+h2,
+p {
+  color: rgb(250, 179, 225);
+}
+html {
+  font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+  font-family:
+    "SN Pro", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: normal;
+}
+html {
+  background-color: rgb(172, 241, 241);
+}
+a:hover {
+  background-color: lightpink;
+}
+.highlight {
+  color: lightcoral;
+  font-weight: 900;
+}
+body {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: tomato;
+  border-color: greenyellow;
+  border-width: 10px;
+  border-style: solid;
+  padding: 0px, 20px, 20px, 20px;
+  align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding-left: 30px;
+}
